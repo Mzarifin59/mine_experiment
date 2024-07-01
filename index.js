@@ -4,7 +4,9 @@
 // app.textContent = 'Halo Dunia';
 // body.append(app)
 
-console.log('Halo Dunia');
+let tanggal = require('./custom-module');
+
+console.log('Halo Dunia' + ", Waktu Sekarang :" + tanggal.timeDate());
 
 // // Contoh Membuat HTTP Server dari web node js
 // const http = require('http');
