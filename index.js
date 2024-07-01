@@ -7,6 +7,7 @@
 let tanggal = require('./custom-module');
 
 console.log('Halo Dunia' + ", Waktu Sekarang :" + tanggal.timeDate());
+console.log('Merged Branch')
 
 // // Contoh Membuat HTTP Server dari web node js
 // const http = require('http');
